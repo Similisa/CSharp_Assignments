@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A25B3D96-A989-4D5C-9D77-C2FE9389F2C9}</ProjectGuid>
+    <ProjectGuid>{7EDAF78F-1796-4E5A-A4BE-6C6799573B29}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Jan28Prj</RootNamespace>
-    <AssemblyName>Jan28Prj</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Feb3Prj</RootNamespace>
+    <AssemblyName>Feb3Prj</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Jan28Prj.COllectionsEg1</StartupObject>
+    <StartupObject>Feb3Prj.Shallow_Vs_Deep</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -45,13 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="COllectionsEg1.cs" />
-    <Compile Include="GenericLists.cs" />
-    <Compile Include="ListEg.cs" />
+    <Compile Include="Async_Await_inFinally.cs" />
+    <Compile Include="Equality1.cs" />
+    <Compile Include="Equality2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StaticEg.cs" />
-    <Compile Include="UsingEg1.cs" />
+    <Compile Include="Shallow_Vs_Deep.cs" />
+    <Compile Include="Tuples.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
